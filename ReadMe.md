@@ -5,7 +5,7 @@
 
 Java sample application
 
-Version: 1.5 (beta)
+Version: 1.6 (beta)
 
 Author : Krumuvecis
 
