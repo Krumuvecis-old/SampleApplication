@@ -5,7 +5,11 @@
 
 Java sample application
 
+Version: 1.5 (beta)
+
 Author : Krumuvecis
+
+
 
 ## Functionality
 
