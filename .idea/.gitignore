@@ -1,4 +1,18 @@
 # Default ignored files
-out/
-.idea/
-SampleApplication.iml
+
+/shelf/
+/workspace.xml
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# My ignored files
+/out/
+/.idea/inspectionProfiles/
+/.idea/dictionaries/
+
+

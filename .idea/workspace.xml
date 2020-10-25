@@ -25,8 +25,28 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d1281ea-a0c6-4531-91bc-bf21ed9d1db6" name="Default Changelist" comment="1.5 initial">
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+    <list default="true" id="2d1281ea-a0c6-4531-91bc-bf21ed9d1db6" name="Default Changelist" comment="readme update">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/Setup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/fileHandling/BasicOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/fileHandling/FileHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/grafika/Grafika.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/grafika/GrafikasDati$ColorPalette.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/grafika/GrafikasDati$SettingsInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/grafika/GrafikasDati.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/grafika/GraphicsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/grafika/pages/SamplePage$LayoutInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/grafika/pages/SamplePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/grafika/pages/pageDemo/PageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/likumi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/main/Main$VersionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/settings/grafikai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/settings/versijai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleApplication/statistika" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +101,7 @@
       <recent name="grafika.pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Linda\IdeaProjects\SampleApplication\.idea" />
       <recent name="C:\Users\Linda\IdeaProjects\SampleApplication\dati\settings" />
     </key>
   </component>
@@ -128,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603638313430</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="readme update">
+      <created>1603638499577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603638499577</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,9 +188,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.4 initial" />
     <MESSAGE value="1.5 initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5 initial" />
+    <MESSAGE value="readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="0" width="582" height="728" key="#Setup" timestamp="1603639837205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="582" height="728" key="#Setup/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603639837205" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603574140807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -175,6 +208,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="143" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603589207874" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603639831151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603639831151" />
     <state x="466" y="258" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603589209174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -219,10 +256,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603585732568" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603638332475">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603638504559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603638332475" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603638504559" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603637196258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
