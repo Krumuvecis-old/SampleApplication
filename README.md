@@ -1,2 +1,0 @@
-# SampleApplication
-Java sample application
