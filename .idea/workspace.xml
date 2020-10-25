@@ -16,12 +16,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d1281ea-a0c6-4531-91bc-bf21ed9d1db6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dati/settings/versijai" beforeDir="false" afterPath="$PROJECT_DIR$/dati/settings/versijai" afterDir="false" />
+    <list default="true" id="2d1281ea-a0c6-4531-91bc-bf21ed9d1db6" name="Default Changelist" comment="1.4 initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +43,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+                <branch-info repo="$PROJECT_DIR$" source="origin/develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -76,6 +97,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Setup" />
+        <item itemvalue="Application.Setup" />
+        <item itemvalue="Application.Setup" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +116,14 @@
       <workItem from="1603581128485" duration="15178000" />
       <workItem from="1603624363707" duration="11439000" />
     </task>
+    <task id="LOCAL-00001" summary="1.4 initial">
+      <created>1603636646284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603636646284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,11 +134,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.4 initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.4 initial" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603574140807">
@@ -130,22 +177,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636223747" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1603636227352">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1603636653703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636227352" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1603636227351">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636653703" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1603636653702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636227351" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1603636227351">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636653702" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1603636653702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636227351" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1603636227351">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636653702" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1603636653702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636227351" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636653702" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1603636227347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -166,6 +213,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603585732568" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603636666995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603636666995" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603637196258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.-304.1920.1040@0.0.1366.728" timestamp="1603637196258" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603584221394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
