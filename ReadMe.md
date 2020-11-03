@@ -5,7 +5,7 @@
 
 Java sample application
 
-Version: 1.6 (beta)
+Version: 1.7 (beta)
 
 Author : Krumuvecis
 
@@ -19,7 +19,7 @@ Pages with specific layouts
 
 Color palettes
 
-(Input not implemented yet)
+Input listeners (no actions yet)
 
 ### File handling
 
