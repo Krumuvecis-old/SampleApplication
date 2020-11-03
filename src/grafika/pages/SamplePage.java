@@ -1,6 +1,7 @@
 package grafika.pages;
 
 import grafika.GraphicsManager;
+import grafika.Input;
 import main.Main;
 
 import java.awt.*;
@@ -73,6 +74,13 @@ public class SamplePage {
         g.drawString("reize : " + Main.versionInfo.reize,50,150);
         g.drawString("X1 : " + Main.sampleVariable1,50,200);
         g.drawString("X2 : " + Main.sampleVariable2,50,215);
+
+        int inputX = 300, inputY = 150;
+        int w = 0, dy = 15;
+        g.drawString("input :", inputX, inputY + w * dy); w++;
+        for (int poga : Input.pogas){
+            g.drawString("" + poga, inputX, inputY + w * dy); w++;
+        }
 
     }
 

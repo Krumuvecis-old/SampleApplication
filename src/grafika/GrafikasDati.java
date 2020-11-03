@@ -1,5 +1,6 @@
 package grafika;
 
+import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
@@ -27,7 +28,7 @@ class GrafikasDati {
 
 
     static void initializeGraphicsVariables(String nosaukums, String versija){
-        defaultCloseAction = javax.swing.JFrame.EXIT_ON_CLOSE; //DISPOSE_ON_CLOSE - tikai aizver paðu logu (vispirms jâuztaisa input operâcijas)
+        defaultCloseAction = JFrame.DISPOSE_ON_CLOSE;//DO_NOTHING_ON_CLOSE;//
 
         windowTitle = nosaukums + ", versija: " + versija;
 
@@ -131,7 +132,7 @@ class GrafikasDati {
                                 new Color(0,40,0)},
                         new Color[]{
                                 new Color(50,80,50),
-                                new Color(00,40,0)},
+                                new Color(0,40,0)},
                         new Color[]{
                                 new Color(80,140,80),
                                 new Color(0,70,0)}));
