@@ -1,12 +1,14 @@
 package main;
 
 import grafika.GraphicsManager;
+import grafika.Input;
 
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class Main {
 
-    public static boolean running;
+    public static boolean running, minimized, windowActive;
 
     public static int sampleVariable1 = 0, sampleVariable2 = 0;
 
@@ -63,6 +65,8 @@ public class Main {
         GraphicsManager.initialize(versionInfo.nosaukums, versionInfo.versija);
 
         running = true;
+        minimized = false;
+        windowActive = true;
         run();
     }
 
@@ -70,8 +74,14 @@ public class Main {
         System.out.println("Main: Running.");
 
         while (running){
-            GraphicsManager.run();
-            calculations();
+
+            if (!minimized){
+                userInput();
+                GraphicsManager.run();
+                calculations();
+
+            }
+
 
             try{
                 Thread.sleep(10);
@@ -80,6 +90,11 @@ public class Main {
             }
         }
         end();
+    }
+
+    private static void userInput(){
+        //Button.checkButtonActions(this); //uz ekrâna redzamo pogu notikumi
+        Input.keyboardActionCheck(); //keyboard nospiesto pogu notikumi
     }
 
     private static void calculations(){

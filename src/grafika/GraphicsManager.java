@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class GraphicsManager extends GrafikasDati {
 
     public static Grafika grafika;
+    public static Input input;
 
     public static String sampleText;
 
@@ -22,6 +23,7 @@ public class GraphicsManager extends GrafikasDati {
 
         grafika = new Grafika();
         grafika.initialize();
+        input = new Input();
 
     }
 
